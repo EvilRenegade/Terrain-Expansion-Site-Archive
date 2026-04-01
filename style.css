@@ -1,0 +1,375 @@
+/* This is to get the footer sticky - http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+html, body {
+	height: 100%;
+}
+
+#footerCheat {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -7.7em; /* Bottom margin MUST be negative footer height. */
+}
+
+/* Below is the normal CSS*/
+body {
+	background-color : #a0a0a0; 
+	color : #000; 
+	margin : 0; 
+	padding : 0; 
+	font-family : tahoma, serif; 
+	font-size : 10px; 
+}
+
+a:link , a:visited {
+color : #fff; 
+font-size : 10px; 
+} 
+
+a:hover , a:active {
+	color : #ff0; 
+	font-size : 10px; 
+} 
+
+img {
+	border : 0 none inherit; 
+} 
+
+input {
+	color : #fff; 
+	background-color : #000; 
+	font : 10px verdana, serif; 
+	border : 1px solid #fff; 
+} 
+
+#header {
+	background-image : url(logox.gif); 
+	background-repeat : repeat-x; 
+	width : 100%; 
+	height : 125px; 
+	padding : 0; 
+	margin : 0; 
+	border : 0 none inherit; 
+}
+
+#header p {
+	margin: 0px;
+}
+
+
+#logo {
+	background-image : url(logo.jpg); 
+	background-repeat : no-repeat;
+	width : 426px; 
+	height : 125px; 
+	padding : 0; 
+	color : #fff; 
+	display: block;
+}
+
+#wtrfal {
+	background-image : url(waterfall.gif); 
+	background-repeat : no-repeat; 
+	width : 75px; 
+	height : 100px; 
+} 
+
+#wrapper {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#nav {
+	width: 203px;
+	margin-left: 3px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.navblock {
+	color : #fff; 
+	font-size : 10px; 
+	font-weight : bold; 
+	text-align : left; 
+	background-color : #a0a0a0; 
+	background-image : url(navbg.gif); 
+	background-repeat : repeat-y; 
+	background-position: top center;
+	margin-bottom: 0.5em;
+}
+
+
+.navblock_top {
+	width : 203px; 
+	height : 15px; 
+	background-image : url(navtop.gif); 
+	background-position: top center;
+	background-repeat : no-repeat; 
+	background-color : #a0a0a0; 
+} 
+
+.navblock_bottom {
+	width : 203px; 
+	height : 15px; 
+	background-image : url(navbot.gif); 
+	background-position: bottom center;
+	background-repeat : no-repeat; 
+	background-color : #a0a0a0; 
+	margin-top: 1em;
+} 
+
+#nav a {
+	display: block;
+}
+
+#nav a.off {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#nav a:link, #nav a:visited {
+	color : #fff; 
+	font-size : 11px; 
+	padding-left : 10px; 
+} 
+
+#nav a:hover, #nav a:active {
+	color : #ff0; 
+	font-size : 11px; 
+	padding-left : 10px; 
+} 
+
+#nav h1 {
+	width : 100%; 
+	padding-left : 8px; 
+	margin: 0px;
+	color : #fff; 
+	font-family : verdana, serif; 
+	font-size : 14px; 
+	font-weight : bold; 
+	text-decoration : underline; 
+}
+
+
+#nav_site {
+	
+}
+
+#nav_tx {
+	
+}
+
+#theatreLinks, #mapLinks {
+	display: none;
+	margin: 0.5em 0.5em 0.5em 1em;
+	font-weight: normal;
+}
+
+#theatreLinks.openDiv, #mapLinks.openDiv {
+	display: block;
+	
+}
+
+#nav_net {
+	
+}
+
+#content {
+	margin-left: 209px;
+	margin-bottom: 8em;
+	padding: 0em 16px 10px 10px;
+	
+}
+
+#footer {
+	padding: 0.5em 1em 0.5em 1em;
+	text-align: center;
+	height: 5em;
+	background-color : #666; 
+	background-image : url(conbot.gif); 
+	background-repeat : no-repeat; 
+	background-position : bottom right; 
+	color : #ccc; 
+	font-family : sans-serif;
+}
+
+#footer p {
+	margin: 0px;
+}
+
+#footer_top {
+	background-color : #000; 
+	background-image : url(conedge.gif); 
+	background-repeat : no-repeat; 
+	background-position : top right; 
+	color : #fff; 
+	padding : 2px; 
+	padding-left : 10px; 
+	padding-right : 14px; 
+	font-size : 12px; 
+	font-weight : bold; 
+	text-decoration : underline; 
+	text-align: center;
+}
+
+/* News styling */
+.maintitle {
+	background-color : #000; 
+background-image : url(conedge.gif); 
+background-repeat : no-repeat; 
+background-position : 100% 0%; 
+color : #fff; 
+padding : 2px; 
+padding-left : 10px; 
+padding-right : 14px; 
+font-size : 12px; 
+font-weight : bold; 
+text-decoration : underline; 
+}
+
+.row2 {
+	background-color : #000; 
+padding-left : 10px; 
+padding-bottom : 2px; 
+color : #666; 
+font-size : 9px; 
+text-align : left; 
+font-weight : normal; 
+text-decoration : none; 
+}
+
+.post1 {
+	background-color : #666; 
+padding : 8px; 
+padding-top : 0; 
+padding-bottom : 15px; 
+color : #ccc; 
+font-size : 11px; 
+text-align : left; 
+}
+
+.right {
+	background-image : url(conbot.gif); 
+background-repeat : no-repeat; 
+background-position : 100% 100%; 
+}
+
+tr:last-child td.row2 {
+	background-color: transparent;
+	
+}
+
+
+
+/* ugly sypher-style, should be replaced asap */
+.count {
+background-color : #a0a0a0; 
+} 
+.count img {
+border : 2px outset #ccc; 
+} 
+.cont {
+width : 100%; 
+padding : 0px; 
+margin:0px 0px;
+} 
+.conth1 {
+background-color : #000; 
+background-image : url(conedge.gif); 
+background-repeat : no-repeat; 
+background-position : 100% 0%; 
+color : #fff; 
+padding : 2px; 
+padding-left : 10px; 
+padding-right : 14px; 
+font-size : 12px; 
+font-weight : bold; 
+text-decoration : underline; 
+} 
+.cont1 {
+padding-left : 10px; 
+padding-right : 14px; 
+padding-bottom : 10px; 
+color : #000; 
+font-size : 14px; 
+text-align : left; 
+} 
+.cont2 {
+background-color : #666; 
+background-image : url(conbot.gif); 
+background-repeat : no-repeat; 
+background-position : 100% 100%; 
+padding : 8px; 
+padding-top : 0; 
+padding-bottom : 15px; 
+color : #ccc; 
+font-size : 11px; 
+text-align : left; 
+} 
+.date {
+background-color : #000; 
+padding-left : 10px; 
+padding-bottom : 2px; 
+color : #666; 
+font-size : 9px; 
+text-align : left; 
+font-weight : normal; 
+text-decoration : none; 
+} 
+.ss {
+width : 50%; 
+padding : 10px; 
+color : #ccc;  
+font-size : 10px; 
+text-align : left; 
+} 
+.download {
+border:0px;
+} 
+.balloont {
+color : #000; 
+background-color : #666; 
+border : 0px none;
+border-bottom : 1px solid #fff; 
+padding : 2px; 
+padding-left : 5px; 
+padding-right : 5px; 
+font-size : 12px; 
+font-weight : bold; 
+text-decoration : underline; 
+} 
+.balloonb {
+color : #fff; 
+background-color : #000; 
+border : 1px solid #fff; 
+padding : 0px; 
+color : #cccccc; 
+font-size : 11px; 
+text-align : left; 
+} 
+#ToolTip {
+position : absolute; 
+top : 0; 
+left : 0; 
+z-index : 4; 
+visibility : hidden; 
+} 
+.mseo { 
+border : 1px solid #fff; 
+padding : 0; 
+cursor: pointer;
+} 
+.wbr {
+border : 1px solid #fff; 
+} 
+.preimg {
+float:right;
+padding-top:10px;
+}
+.preimg img {
+border:1px solid #000;
+}
+.error {
+color :#ff0000;
+}
